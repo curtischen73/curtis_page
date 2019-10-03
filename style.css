@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+*{ /* 'star' indicate applies */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: hsla(231, 100%, 50%, 0.623);
+    background-color: hsla(0, 0%, 0%, 0.788);
+}
+
+.h1_spec{
+    color: brown;
+}
+
+li{
+    font-size: 20px;
+}
+
+#ol_spec{
+    color: yellowgreen;
+}
+
+.homeworks{
+    display: flex;
+
+}
+
+.homework{
+    width: 500px;
+    height: 300px;
+    /*background-image: url(''); */
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    background-size: contain;
+    /*background-size: cover; */
+    background-repeat: no-repeat;
+    box-sizing: border-box; /*the width and height are calculated by border*/
+}
+
+.home{
+    width: 100%;
+    height: 100vh; /* == 100% view height*/
+    background-image: url("https://media.wired.com/photos/5d09594a62bcb0c9752779d9/master/w_2560%2Cc_limit/Transpo_G70_TA-518126.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.about_me{
+    width: 100%;
+    height: 100vh; /* == 100% view height*/
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.about_me_right{
+    width: 50vw;
+    height: 100%; /* == 100% view height*/
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+about_me_right_inner{
+    width: 100vw;
+    height: 100%; /* == 100% view height*/
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
